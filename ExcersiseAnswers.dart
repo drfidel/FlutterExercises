@@ -145,3 +145,22 @@ void main() {
   reverseSentence(myString);
   
 }
+
+// 6. Write a program (function) that takes a list and returns
+// a new list that contains all the elements of the first list 
+// minus all the duplicates.
+
+//function to print first and last index
+List noDuplicates(List arrList){ 
+  return arrList.toSet().toList();
+}
+
+void main() {
+  
+  var myList = [1,1,2,3,5,6,7,7,8,8,9,10,11,11,12,13,14];
+  
+  //print new list without duplicates
+  print('initial list: $myList \n');
+  print('no duplicates list: ${noDuplicates(myList)}');
+  
+}
