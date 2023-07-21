@@ -101,3 +101,23 @@ void main() {
   }
   
 }
+
+// 4. Write a program that takes a list of numbers for example
+// a = [5, 10, 15, 20, 25]
+
+// and makes a new list of only the first and last elements of the 
+// given list. For practice, write this code inside a function.
+
+//function to print first and last index
+void firstAndLast(List arr){ 
+  print('first index value: ${arr.first} \nlast index value: ${arr.last}');
+}
+
+void main() {
+  
+  var a = [5, 10, 15, 20, 25];
+  
+  //print first and last index
+  firstAndLast(a);
+  
+}
