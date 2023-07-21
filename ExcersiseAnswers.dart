@@ -75,3 +75,29 @@ void main() {
   print('array a and b - intersection $sortedAWithNoDuplicates ');
   
 }
+
+// 3. Write a program to check if a string is a palindrome or not.
+// A palindrome is a string that reads the same
+// forwards and backwards. Eg mum
+
+void main() {
+  
+  //array objects
+  var checkString = "mum";
+  
+  //check if pralidrome
+  var reversedStringArray = "";
+  
+  //iterate and reverse
+  for(int i = checkString.length-1; i >= 0; i--){
+     reversedStringArray += checkString[i];
+  }
+  
+  //compare and check pralidrome
+  if(checkString == reversedStringArray){
+    print('$checkString is a Pralidrome');
+  } else {
+    print('$checkString is not a Pralidrome');
+  }
+  
+}
