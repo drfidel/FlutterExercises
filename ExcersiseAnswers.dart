@@ -121,3 +121,27 @@ void main() {
   firstAndLast(a);
   
 }
+
+// 5. Write a program (using functions!) that asks the user 
+// for a long string containing multiple words. Print back to 
+// the user the same string, except with the words in backwards order.
+// For example, say I type the string:
+// My name is Michele
+  
+// Then I would see the string:
+//  Michele is name My
+
+//function to print first and last index
+void reverseSentence(String arr){ 
+  print('initial sentence: $arr');
+  print('\nreversed Sentence: ${arr.split(" ").reversed.join(" ")}');
+}
+
+void main() {
+  
+  var myString = "My name is Michele";
+  
+  //print first and last index
+  reverseSentence(myString);
+  
+}
