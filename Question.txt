@@ -50,3 +50,6 @@ B, count how many birthdays in each month.
     "December": 4,
     "December": 2,
 }
+
+Exercise question for session on collections:
+Write a program that creates two list "houses" and "roads" where   roads is  growable and house is fixed and add the lists to show one.
